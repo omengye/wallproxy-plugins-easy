@@ -1,7 +1,7 @@
-这是一个wallproxy-plugins的简化版，旨在在无UI的模式下运行代理，
-更加详细的描述见此 http://code.google.com/p/wallproxy-plugins/
+锟斤拷锟斤拷一锟斤拷wallproxy-plugins锟侥简化版，旨锟斤拷锟斤拷锟斤拷UI锟斤拷模式锟斤拷锟斤拷锟叫达拷锟斤拷锟斤拷
+锟斤拷锟斤拷锟斤拷细锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷 http://code.google.com/p/wallproxy-plugins/
 
-windows 的环境配置为
+windows 锟侥伙拷锟斤拷锟斤拷锟斤拷为
 
 Python-2.7.2 http://www.python.org/getit/
 
@@ -9,26 +9,26 @@ pyOpenSSL-0.13.winxp32-py2.7 http://pypi.python.org/pypi/pyOpenSSL
 
 pycrypto-2.4.1.win32-py2.7
 
-其中的 pycrypto-2.4.1.win32-py2.7.exe 为使用Cygwin编译在 https://www.dlitz.net/software/pycrypto/ 
-上的 pycrypto-2.4.1.tar.gz 而来
+锟斤拷锟叫碉拷 pycrypto-2.4.1.win32-py2.7.exe 为使锟斤拷VSn锟斤拷锟斤拷锟斤拷 https://www.dlitz.net/software/pycrypto/ 
+锟较碉拷 pycrypto-2.4.1.tar.gz 锟斤拷锟斤拷
 
-1. src; proxy; startup 均由wallproxy-plus_V1.0.8_Memono_Mod.7z 直接 copy 得来
+1. src; proxy; startup 锟斤拷锟斤拷wallproxy-plus_V1.0.8_Memono_Mod.7z 直锟斤拷 copy 锟斤拷锟斤拷
 
-2. crypto 及 OpenSSL 文件夹由7zip解压缩 wallproxy-plus_V1.0.8_Memono_Mod.7z 中的proxy.exe，
-提取出OpenSSL和Crypto，并用 win-patch.py 修改而得
+2. crypto 锟斤拷 OpenSSL 锟侥硷拷锟斤拷锟斤拷7zip锟斤拷压锟斤拷 wallproxy-plus_V1.0.8_Memono_Mod.7z 锟叫碉拷proxy.exe锟斤拷
+锟斤拷取锟斤拷OpenSSL锟斤拷Crypto锟斤拷锟斤拷锟斤拷 win-patch.py 锟睫改讹拷锟斤拷
 
-使用
+使锟斤拷
 
-按顺序安装 Python pyopenssl pycrypto
-如何设置密码请见 http://code.google.com/p/wallproxy-plugins/wiki/ConfigClient 
-设置之后将该 app 禁用一下再启用以清空缓存
-在 proxy 文件中填入自己的GAE ID，密码(AES-CBC-32模式下)
-双击 startup.py 即可运行并生成cert证书目录
+锟斤拷顺锟斤拷锟斤拷装 Python pyopenssl pycrypto
+锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷 http://code.google.com/p/wallproxy-plugins/wiki/ConfigClient 
+锟斤拷锟斤拷之锟襟将革拷 app 锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟秸伙拷锟斤拷
+锟斤拷 proxy 锟侥硷拷锟斤拷锟斤拷锟斤拷锟皆硷拷锟斤拷GAE ID锟斤拷锟斤拷锟斤拷(AES-CBC-32模式锟斤拷)
+双锟斤拷 startup.py 锟斤拷锟斤拷锟斤拷锟叫诧拷锟斤拷锟斤拷cert证锟斤拷目录
 
-Linux (archLinux) 下需要的安装包有
+Linux (archLinux) 锟斤拷锟斤拷要锟侥帮拷装锟斤拷锟斤拷
 
 python2
 python2-openssl
 pycrypto
 
-随后运行 python2 startup.py 即可
+锟斤拷锟斤拷锟斤拷锟斤拷 python2 startup.py 锟斤拷锟斤拷
