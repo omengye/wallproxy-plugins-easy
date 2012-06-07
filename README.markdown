@@ -6,10 +6,10 @@
 
 [pyOpenSSL-0.13.winxp32-py2.7](http://pypi.python.org/pypi/pyOpenSSL)
 
-pycrypto-2.5.win32-py2.7
+pycrypto-2.6.win32-py2.7
 
-其中的 pycrypto-2.5.win32-py2.7.exe 为使用VS编译在 [dlitz.net](https://www.dlitz.net/software/pycrypto/) 
-上的 pycrypto-2.5.tar.gz 而来
+其中的 pycrypto-2.6.win32-py2.7.exe 为使用VS编译在 [dlitz.net](https://www.dlitz.net/software/pycrypto/) 
+上的 pycrypto-2.6.tar.gz 而来
 
 1. src; proxy; startup 均由wallproxy-plus_V1.0.8_Memono_Mod.7z 直接 copy 得来
 
